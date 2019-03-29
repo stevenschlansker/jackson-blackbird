@@ -90,11 +90,11 @@ Following things are optimized:
 
 Blackbird has been lightly performance tested using `jmh` on openjdk 11 and 12.
 For reading and writing a moderately complex bean, Blackbird performance seems
-to be almost exactly on par wtihAfterburner - up to 20% better than vanilla Jackson in some cases.
+to be almost exactly on par with Afterburner - up to 20% better than vanilla Jackson in some cases.
 At that point the method invocation overhead disappears behind the heat generated
 from the long parser and UTF8 decoder.
 
 I used [jitwatch](https://github.com/AdoptOpenJDK/jitwatch) with `hsdis` to verify the generated code at a
 superficial level.  The generated call sites do seem to be good targets for inlining, although unfortunately
 [jitwatch currently can't analyze lambdas very well](https://github.com/AdoptOpenJDK/jitwatch/issues/282) so
-more advanced analysis may have to come later.
+more advanced analysis will have to come later.
