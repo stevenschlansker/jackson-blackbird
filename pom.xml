@@ -3,11 +3,12 @@
   <parent>
     <groupId>com.fasterxml.jackson.module</groupId>
     <artifactId>jackson-modules-base</artifactId>
-    <version>2.10.0-SNAPSHOT</version>
+    <version>2.10.0.pr1</version>
     <relativePath />
   </parent>
 
   <artifactId>jackson-module-blackbird-parent</artifactId>
+  <version>2.10.0-SNAPSHOT</version>
   <name>Jackson module: Blackbird Parent</name>
   <packaging>pom</packaging>
   <url>https://github.com/FasterXML/jackson-modules-base</url>
