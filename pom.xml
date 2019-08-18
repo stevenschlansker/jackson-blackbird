@@ -21,6 +21,5 @@
 
   <modules>
     <module>blackbird</module>
-    <module>benchmarks</module>
   </modules>
 </project>
