@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.jdbi.jackson-contrib</groupId>
     <artifactId>jackson-module-blackbird-parent</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
 
   <artifactId>jackson-module-blackbird</artifactId>
