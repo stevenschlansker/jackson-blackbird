@@ -22,7 +22,7 @@ as a default strategy for Jackson 3.
 
 ## Status
 
-Blackbird is experimental and needs brave pilots to take her for test flights!
+Blackbird is new and not as mature as Afterburner, but has been tested and runs well.
 The code is written to fail-fast and explode on the tarmac rather than later at runtime.
 
 Blackbird passes all the original Afterburner tests (except a couple that didn't make sense anymore).
@@ -35,13 +35,11 @@ To use module on Maven-based projects, use following dependency:
 
 ```xml
 <dependency>
-  <groupId>com.fasterxml.jackson.module</groupId>
+  <groupId>org.jdbi.jackson-contrib</groupId> <!-- Temporary group ID, this will change! -->
   <artifactId>jackson-module-blackbird</artifactId>
-  <version>2.10.0-SNAPSHOT</version>
+  <version>0.0.1</version>
 </dependency>
 ```
-
-Since there's no releases yet, you'll have to build it locally.
 
 ### Non-Maven
 
